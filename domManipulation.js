@@ -22,17 +22,22 @@ let image = document.querySelector('.image');
 //   - The `location` paragraph.
 
 contentButton.addEventListener('click', function() {
+  myName.innerHTML = "Shanta";
+  myHobby.innerHTML = "The Arts";
+  myLocation.innerHTML = "Brooklyn, New York" });
 
 
 
 
 
 
-});
 
 // 3. Add an event listener to the `image1Button`
 // 4. When clicked, it should change the source of `image` to another image URL.
 
+image1Button.addEventListener('click', function() {
+  image.scr= "https://images.pexels.com/photos/56866/garden-rose-red-pink-56866.jpeg?cs=srgb&dl=pexels-pixabay-56866.jpg&fm=jpg"
+});
 
 
 
